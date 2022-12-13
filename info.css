@@ -1,0 +1,57 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  font-size: 275%;
+  font-weight: bolder;
+}
+
+.Info-sleva {
+  position: relative;
+  top: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8%;
+  margin-right: 5%;
+  margin-left: 5%;
+  align-items: center;
+}
+
+.info-text {
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-img {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  width: 90%;
+}
+
+.img-people {
+  width: 75%;
+  border-radius: 5%;
+}
+
+.info-nadpis {
+  font-weight: bold;
+  font-size: 350%;
+  width: 250%;
+}
+
+.info-body {
+  font-size: 175%;
+  width: 220%;
+  margin-right: 5%;
+}
+
+.products-tab {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+

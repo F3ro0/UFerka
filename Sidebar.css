@@ -1,0 +1,27 @@
+.side-bar {
+  position: fixed;
+    left: 0;
+    display: block;
+    height: 100px;
+    top: 71px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 200px;
+    z-index: 200;
+    padding-top: 1%;
+    margin-left: 1%;
+}
+
+.bota {
+  display: flex;
+  align-items: center;
+}
+
+.bota-icon {
+  width: 40px;
+}
+
+.bota-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
